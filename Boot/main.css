@@ -1,0 +1,6 @@
+:root{
+  --primary-color: rgb(23, 30, 65);
+  --primary-color-highlight: rgb(30, 46, 66);
+  --bs-body-bg: rgb(247, 231, 231);
+  --bs-body-font-family: "Oxygen",sans-serif;
+}
