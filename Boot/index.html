@@ -16,15 +16,18 @@
 
 <body>
   <div>
-    <div class="d-flex align-items-center bg-black pt-3 pb-3 pl-1">
-     <div>
-      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="togglenav">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-        </svg>
-      </button> 
-      <a class=" btn btn-large btn-black text-decoration-none text-white fs-3 fw-bold">Flipkart Grid</a>
-     </div>
+    <div class="d-flex align-items-center bg-black pt-1 pb-1 pl-1">
+      <div>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="togglenav">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+        </button>
+        <a class=" btn btn-large btn-black text-decoration-none text-warning fs-2 fw-bold">Flipkart Grid</a>
+      </div>
     </div>
     <div class="collapse navbar-collapse bg-light" id="navbar">
       <ul class="list-group">
@@ -32,12 +35,83 @@
         <li class="list-group-item"><a href="#">Runners-up</a></li>
         <li class="list-group-item"><a href="#">Second Runners-up</a></li>
       </ul>
+    </div>
+  </div>
+  </div>
+  <div class="d-flex justify-content-center mt-4">
+    <span class="fontsi tur">Turn for X</span>
+  </div>
+  <div class="d-flex justify-content-center">
+    <button type="button" class="btn text-success fontsi" id="reset1" onclick="this.blur()">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bootstrap-reboot"
+        viewBox="0 0 16 16">
+        <path
+          d="M1.161 8a6.84 6.84 0 1 0 6.842-6.84.58.58 0 1 1 0-1.16 8 8 0 1 1-6.556 3.412l-.663-.577a.58.58 0 0 1 .227-.997l2.52-.69a.58.58 0 0 1 .728.633l-.332 2.592a.58.58 0 0 1-.956.364l-.643-.56A6.812 6.812 0 0 0 1.16 8z" />
+        <path
+          d="M6.641 11.671V8.843h1.57l1.498 2.828h1.314L9.377 8.665c.897-.3 1.427-1.106 1.427-2.1 0-1.37-.943-2.246-2.456-2.246H5.5v7.352h1.141zm0-3.75V5.277h1.57c.881 0 1.416.499 1.416 1.32 0 .84-.504 1.324-1.386 1.324h-1.6z" />
+      </svg> -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+        <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+      </svg>
+    </button>
+  </div>
+  <div class="container" id="main">
+    <div class="row" id="row1">
+      <div class="col d-flex justify-content-center">
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+      </div>
+    </div>
+    <div class="row" id="row2">
+      <div class="col d-flex justify-content-center">
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+      </div>
+    </div>
+    <div class="row" id="row3">
+      <div class="col d-flex justify-content-center">
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+        <button type="button" class="btn btn-info custom b2" onclick="this.blur()"><span
+            class="fs-1 text-black txt"></span></button>
+      </div>
+    </div>
+    <div class="container w-75">
+      <div class="row mrg2 b3 row-cols-1 bgcolor p-3 row-cols-sm-1 row-cols-md-1 row-cols-lg-3" id="row4">
+        <div class="col d-flex justify-content-center fontsi text-warning">
+          <div class="p3">You :</div>
+          <div id="you">0</div>
+        </div>
+        <div class="col d-flex justify-content-center fontsi text-warning p4"><div class="">Score</div>
+          <button type="button" class="btn text-warning fontsi2" id="reset2" onclick="this.blur()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-clockwise p5" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+              <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+            </svg>
+          </button>
+        </div>
+        <div class="col d-flex justify-content-center fontsi text-warning">
+          <div class="p3">Computer :</div>
+          <div id="computer">0</div>
+        </div>
       </div>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script src="tic.js"></script>
 </body>
 
 </html>

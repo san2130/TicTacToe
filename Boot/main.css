@@ -4,3 +4,45 @@
   --bs-body-bg: rgb(247, 231, 231);
   --bs-body-font-family: "Oxygen",sans-serif;
 }
+.custom{
+  height: 100px;
+  width: 100px;
+}
+.b2{
+  border: 5px solid yellow;
+  border-radius: 3px;
+}
+.mrg{
+  padding-top:2vw;
+}
+.mrg2{
+  margin-top:50px;
+}
+.b3{
+  border: 5px solid yellow;
+  border-radius: 3px;
+}
+.bgcolor{
+  background-color: black;
+}
+.p3{
+  padding-right:10px;
+}
+.p4{
+  padding-left:44px;
+}
+.fontsi{
+  font-size:28px;
+}
+.p5{
+  padding-bottom:5px;
+}
+.fontsi2
+{
+  font-size:22px;
+}
+@media screen and (max-height: 640px) {
+  .fontsi2{font-size:15px;}
+  .p5{padding-bottom:0px;padding-top:2px;}
+  .mrg2{margin-top:20px;}
+}
