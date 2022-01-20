@@ -8,7 +8,7 @@ p1st.addEventListener("click",()=>{
   sessionStorage.setItem("name2",name2);
   sessionStorage.setItem("start",0);
   sessionStorage.setItem("turn",choice);
-  location.href="index.html";
+  location.href="boot.html";
 })
 p2st.addEventListener("click",()=>{
   let name1=document.getElementById("name1").value;
@@ -17,7 +17,7 @@ p2st.addEventListener("click",()=>{
   sessionStorage.setItem("name2",name2);
   sessionStorage.setItem("start",1);
   sessionStorage.setItem("turn",choice);
-  location.href="index.html";
+  location.href="boot.html";
 })
 let btnx=document.getElementById("btnradio1");
 btnx.addEventListener("click",()=>{

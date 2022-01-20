@@ -8,6 +8,7 @@ var name2 = "";
 var nt = "";
 var stnt="";
 var modex = sessionStorage.getItem("mode");
+console.log(modex);
 mode = Number(modex);
 turn = sessionStorage.getItem("turn");
 var star = sessionStorage.getItem("start");

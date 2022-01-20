@@ -7,7 +7,7 @@ ystart.addEventListener("click",()=>{
   sessionStorage.setItem("name1",name);
   sessionStorage.setItem("turn",choice);
   sessionStorage.setItem("start",1);
-  location.href="index.html";
+  location.href="boot.html";
 })
 cstart.addEventListener("click",()=>{
   let name=document.getElementById("nameyou").value;
@@ -15,7 +15,7 @@ cstart.addEventListener("click",()=>{
   sessionStorage.setItem("name1",name);
   sessionStorage.setItem("turn",choice);
   sessionStorage.setItem("start",0);
-  location.href="index.html";
+  location.href="boot.html";
 })
 let btnx=document.getElementById("btnradio1");
 btnx.addEventListener("click",()=>{
