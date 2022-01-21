@@ -6,7 +6,7 @@ var mode = 0;
 var name1 = "";
 var name2 = "";
 var nt = "";
-var stnt="";
+var stnt = "";
 var modex = sessionStorage.getItem("mode");
 console.log(modex);
 mode = Number(modex);
@@ -53,7 +53,7 @@ if ((mode === 1) && (start === 1)) {
 else if (mode === 1)
   nt = name1;
 st = turn;
-stnt=nt;
+stnt = nt;
 document.getElementsByClassName("tur")[0].innerText = "Turn for " + nt + " (" + turn + ")";
 let sy = document.getElementById("syou");
 let sco = document.getElementById("scomp");
@@ -106,7 +106,7 @@ reset1.addEventListener('click', () => {
     boxtext[i].innerText = '';
   turn = st;
   document.getElementsByClassName("tur")[0].innerText = "Turn for " + stnt + " (" + turn + ")";
-  nt=stnt;
+  nt = stnt;
   if (ans !== -1) {
     boxes[wins[ans][0]].style.backgroundColor = "rgb(91, 192, 222)";
     boxes[wins[ans][1]].style.backgroundColor = "rgb(91, 192, 222)";
@@ -246,3 +246,28 @@ function firstmove() {
   if (over === 0)
     document.getElementsByClassName("tur")[0].innerText = "Turn for " + nt + " (" + turn + ")";
 }
+let fas = document.getElementsByClassName("fa");
+for (let i = 0; i < 5; i++) {
+  fas[i].addEventListener("click", () => {
+    update(i);
+  })
+}
+function update(i) {
+  for (let j = 0; j < 5; j++)
+    fas[j].classList.remove("checked");
+  for (let j = 0; j <= i; j++)
+    fas[j].classList += " checked";
+}
+let rev = document.getElementById("rev");
+let clo = document.getElementById("close");
+let revi = document.getElementById("review");
+rev.addEventListener("click", () => {
+  for (let j = 0; j < 5; j++)
+    fas[j].classList.remove("checked");
+  revi.value = "";
+})
+clo.addEventListener("click", () => {
+  for (let j = 0; j < 5; j++)
+    fas[j].classList.remove("checked");
+  revi.value = "";
+})

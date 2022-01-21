@@ -41,6 +41,14 @@
 {
   font-size:22px;
 }
+a{
+  text-decoration: none;
+  color:rgb(33, 30, 156);
+}
+.checked {
+  color : rgb(33, 115, 126);
+  font-size : 20px;
+}
 @media screen and (max-height: 640px) {
   .fontsi2{font-size:15px;}
   .p5{padding-bottom:0px;padding-top:2px;}
