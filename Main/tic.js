@@ -108,9 +108,9 @@ reset1.addEventListener('click', () => {
   document.getElementsByClassName("tur")[0].innerText = "Turn for " + stnt + " (" + turn + ")";
   nt = stnt;
   if (ans !== -1) {
-    boxes[wins[ans][0]].style.backgroundColor = "rgb(13, 202, 240)";
-    boxes[wins[ans][1]].style.backgroundColor = "rgb(13, 202, 240)";
-    boxes[wins[ans][2]].style.backgroundColor = "rgb(13, 202, 240)";
+    boxes[wins[ans][0]].style.backgroundColor = "#33b5e5";
+    boxes[wins[ans][1]].style.backgroundColor = "#33b5e5";
+    boxes[wins[ans][2]].style.backgroundColor = "#33b5e5";
     boxes[wins[ans][0]].classList.remove("active");
     boxes[wins[ans][1]].classList.remove("active");
     boxes[wins[ans][2]].classList.remove("active");
